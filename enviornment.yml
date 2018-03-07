@@ -1,0 +1,6 @@
+name: runtimestamp
+dependencies:
+- python=3.6
+- pip:
+  - datetime
+  - platform
