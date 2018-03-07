@@ -7,11 +7,11 @@ setup(name='runtimestamp',
 	description='Leaves an timestamp and signature at the top of every notebook',
 	author='leon yin',
 	author_email='ly501@nyu.edu',
-	url='https://github.com/yinleon/s3',
+	url='https://github.com/yinleon/runtimestamp',
 	keywords='jupyter notebook, timestamp',
 	license='MIT',
 	install_requires=[
 		'platform',
 		'datetime',
 	]
-)a
+)
