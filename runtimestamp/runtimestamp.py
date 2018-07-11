@@ -2,11 +2,14 @@ import os
 import datetime
 import platform
 
-def runtimestamp():
+__all__ = ['runtimestamp']
+
+def runtimestamp(user=None):
     '''
     Returns Runtime Metadata for Jupyter Notebooks
     '''
-    user = os.environ.get("USER")
+    if not user:
+        user = os.environ.get("USER")
     today = datetime.datetime.now()
     version = platform.python_version()
     os_platform = platform.platform()
